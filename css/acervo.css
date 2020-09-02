@@ -1,0 +1,28 @@
+.container-fluid{
+    padding: 1%;
+    background-color: #5483ad;
+}
+
+.container{
+    margin-bottom: 2%;
+    background-color: white; 
+    border-radius: 1%;
+    padding: 5%; 
+    /* box-shadow: 1px 5px 5px black; */
+}
+
+figure a img{
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: 1px 1px 1px #5483ad;
+    
+}
+
+.ampliedImage{
+    width: 100%;
+}
+
+footer *{
+    align-items: center;
+    justify-content: center;
+}

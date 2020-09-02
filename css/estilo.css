@@ -1,8 +1,104 @@
-.nav-item {
-   font-style: italic;
+body{
+  height: 100%;
 }
 
 .estilo-letra-agendamento {
   font-family: 'Grenze Gotisch', cursive;
 }
 
+.seção-fotos{
+	background-image: linear-gradient(blue,white);
+}
+
+.card {
+	width: 15em;
+}
+
+
+.card-body {
+	padding: 0.5em;
+}
+
+
+
+.scrollspySite {
+	position: relative;
+	overflow: auto;
+	height: 380px;
+
+}
+
+
+
+ .container-imagens {
+    width:700px;
+    margin:30px auto 0;
+
+ }
+ 
+h3 {
+    color:#fff;
+    text-align:center;
+    padding-top:3px;
+    font-size:16px;
+    word-spacing:1px;
+    text-shadow:1px 1px 2px #000; 
+ }
+   
+#content {
+   background:#848c9c;
+   background:linear-gradient(to top, #848c9c 0%, #687080 50%, #a7b1c1c5 100%);
+   background:-webkit-linear-gradient (bottom, #848c9c 0%, #687080 50%, #a7b1c5 100%);
+   padding-top:30px;
+   padding-bottom:30px;
+   overflow:hidden;      
+  
+ }
+
+.gallery {
+    width:528px;
+    margin:auto;
+ }
+ 
+.gallery ul {
+     list-style: none;
+ }
+ 
+ .gallery li {
+     float:left;
+     margin:10px;
+ }
+
+.gallery img {
+     display:block;
+     padding:5px;
+     background:#42517f;
+     border: 1px solid #99adeb;
+}
+
+.gallery img:hover {
+    border: 1px solid #fff;
+}
+
+.cabecalho-do-album{
+	background:#42517f;
+    border-bottom: 1px solid #000;
+}
+
+.content-section {
+   background:#e7e7e1;
+   padding:50px 30px 30px 20px;
+}
+
+
+
+ 
+ header {
+   padding: 10px 100px;
+   box-sizing: border-box;
+ 
+ }
+body{
+  padding: 0;
+  height: 100%;
+}

@@ -2,150 +2,209 @@
 <html>
 <head>
 	<title>Centro historico</title>
-	<meta charset="utf-8">
+  <meta charset="utf-8">
 
-
+  <!-- font import -->
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Modak&family=Montserrat&family=Open+Sans&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
  
+  <!-- bootstrap import -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
 
-    <link rel="stylesheet" type="text/css "href="css/estilo.css"> 
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <!-- css import -->
+  <link rel="stylesheet" type="text/css "href="css/estilo.css"> 
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 <body>
- 
-   <header>
-		<div class="row justify-content-center">
-           <div>
-           	 <img src="img/imagem4.png">
-           </div>
-		</div>
+
+  <header>
+    <img src="img/imagem4.png">
   </header> 
-  <br>
-  <div class="container">
-	<nav class="navbar navbar-expand-lg navbar-light bg-primary ">
-		<a class="navbar-brand" href="#"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end"id=navbarNavDropdown">
-			<ul class="navbar-nav">
-				<li class="nav-item active ">
-					<a class="nav-link text-white" href="index.html">Inicio <span class="sr-only">(Página atual)</span></a>
-				</li>
-				<li class="nav-item  ">
-					<a class="nav-link text-white "href="agendamentos.html">Agendamentos</a>
-				</li>
-				<li class="nav-item ">
-				   <a class="nav-link text-white" href="#">Acervo</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle text-white" href="educa.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown">galeria de fotos</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">Galeria Educação</a>
-						<a class="dropdown-item" href="#">Galeria Politica</a>
-						<a class="dropdown-item" href="#">Galeria Agricultura</a>
-					</div>
-				</li>
-			   <li class="nav-item">
-					<a class="nav-link text-white" href="#">Entre em contato</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-   </div>
-	<br>
-   <div class="container">
-          
-          <div id="carousel-legenda" class="carousel slide" data-ride="carousel"><!--Carousel -->
 
-            <!-- Indicadores -->
-            <ol class="carousel-indicators">
 
-              <li class="active" data-target="#carousel-legenda" data-slide-to="0"></li>
 
-              <li data-target="#carousel-legenda" data-slide-to="1"></li>
+  <!----------------------- barra de navegação-------------------------- -->
+  <nav class="navbar navbar-expand-lg navbar-light nav-estilo">
+    <a class="navbar-brand " href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="agendamentos.html">Agendamentos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="acervo.html">Acervo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="galeriadeimagens.html">Galeria imagens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="relatos.html">Relatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " data-toggle="modal" data-target="#modal-contato" href="#">Entre em contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-              <li data-target="#carousel-legenda" data-slide-to="2"></li>
 
-            </ol>
+  <div style="background-color: #5483ad; padding-bottom: 2%;" class="container-fluid">
+    <!-- carrossel -->
+    <div id="carousel-legenda" class="carousel slide" data-ride="carousel"><!--Carousel -->
 
-            <div class="carousel-inner"><!--Inner -->
-              
-              <div class="carousel-item active">
-                <img src="img/imagem1.jpg" class="img-fluid">
-                <div class="carousel-caption">
-                    <h3>Item 1</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  
-                </div>
-              </div>
+      <!-- Indicadores -->
+      <ol class="carousel-indicators">
 
-              <div class="carousel-item">
-                <img src="img/imagem2.jpg" class="img-fluid">
-                <div class="carousel-caption">
-                  <h3>Item 2</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
+        <li class="active" data-target="#carousel-legenda" data-slide-to="0"></li>
 
-              <div class="carousel-item">
-                <img src="img/imagem3.jpg" class="img-fluid">
-                <div class="carousel-caption">
-                  <h3>Item 3</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  </p>
-                </div>
-              </div>
+        <li data-target="#carousel-legenda" data-slide-to="1"></li>
 
-            </div><!--/Inner -->
+        <li data-target="#carousel-legenda" data-slide-to="2"></li>
 
-            <!-- Controles -->
-            <a href="#carousel-legenda" class="carousel-control-prev" data-slide="prev">
-              <span class="carousel-control-prev-icon"></span>
-            </a>
+      </ol>
 
-            <a href="#carousel-legenda" class="carousel-control-next" data-slide="next">
-              <span class="carousel-control-next-icon"></span>
-            </a>
+      <div class="carousel-inner"><!--Inner -->
+            
+        <div class="carousel-item active">
+          <img src="img/gabinete.png" class="img-fluid">
+          <div class="carousel-caption">
+            <h3>Item 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+                
+          </div>
+        </div>
 
-          </div><!--/Carousel -->
-          
+        <div class="carousel-item">
+          <img src="img/agricultura1.jpg" class="img-fluid">
+          <div class="carousel-caption">
+            <h3>Item 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
 
-        </div><!--/col-sm8 -->
-      </div><!--/Row -->
-    </div><!--/Container -->
-	<br>
-	<section class="container">
-	    <h1>Historia do centro</h1>	
-		<p class="text-justify"> 	
-			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-			<hr>
+        <div class="carousel-item">
+          <img src="img/cruz.png" class="img-fluid">
+          <div class="carousel-caption">
+            <h3>Item 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+          </div>
+        </div>
 
-			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-			<hr>
+      </div><!--/Inner -->
 
-			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-			<hr>
+          <!-- Controles -->
+      <a href="#carousel-legenda" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
 
-			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-			<hr>
+      <a href="#carousel-legenda" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
 
-			Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-			<hr>
-		</p>
-		</p>
+    </div><!--/Carousel -->
 
-		</p>
 
-		</p>
-	</section>
+    <!-- história do centro -->
+    <div class="container-fluid">
+      <header><h3>Centro historico santana do seridó</h3></header>
+      <section   class="content-section ">
+        <p class="text-justify"> 	
+          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </p>	
+        <p>
+          Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+        </p>	
+      </section>
+    </div>
+
+    
+	
+  </div><!-- container-fluid -->
+  <footer>
+      
+    <div class="row">
+      
+
+      <div class="col-md-5 text-center my-3">
+
+        <h5 class="text-center estilo-rodape">CENTRO HISTÓRICO SANTANA DO SERIDÓ/RN</h5>
+        <h6 class="text-center">AV. Zezé Aprígio, 228 Centro - Santana do Seridó/RN</h6>
+        <h6 class="text-center">CEP:59350-000 - Fone:(84)93476-0066</h6>
+        
+        <h5>CONECTE-SE CONOSCO</h5>
+        <a href="www.facebook.com" class="btn btn-outline-info ">
+          <i class="fab fa-facebook"></i> 
+        </a>
+        <a href="instagram.com" class="btn btn-outline-info ">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+
+      <div class="col-md-3 my-3 text-center">
+        
+      </div>
+      <div class="col-md-4">
+        <h5 class="  estilo-rodape">Mapa: Encontre o centro histórico</h5>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.4975018685444!2d-36.73446627086131!3d-6.771069317943031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa36565c0c1f48711!2sPrefeitura%20Municipal%20de%20Santana%20do%20Serid%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1595439735742!5m2!1spt-BR!2sbr" width="310" height="170" frameborder="0" 
+          style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+        </iframe>	 
+
+      </div>
+    </div> 
+    
+
+</footer>
+	
+  
+  <!-- Modal -->
+  <div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">FALE CONOSCO</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+
+            <div class="form-group">
+              <label for="formGroupExampleInput">Nome completo</label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="insira seu nome completo">
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@exemplo.com">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Deixe seu comentário</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="insira aqui seu comentário" rows="3"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+     
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

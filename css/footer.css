@@ -1,0 +1,12 @@
+footer {
+    color: #aaa; background-color: #2f2f2f;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 2%;
+
+}
+
+.estilo-rodape {
+ font-family: 'Rowdies', cursive;
+}
