@@ -8,7 +8,8 @@
     background-color: white; 
     border-radius: 1%;
     padding: 5%; 
-    /* box-shadow: 1px 5px 5px black; */
+    box-shadow: 1px 5px 5px black;
+    display: grid;
 }
 
 figure a img{

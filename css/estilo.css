@@ -1,6 +1,9 @@
-body{
+body,html{
+  width: 100%;
   height: 100%;
 }
+
+
 
 .estilo-letra-agendamento {
   font-family: 'Grenze Gotisch', cursive;
@@ -88,6 +91,7 @@ h3 {
 .content-section {
    background:#e7e7e1;
    padding:50px 30px 30px 20px;
+   max-width: 100%;
 }
 
 
@@ -98,7 +102,7 @@ h3 {
    box-sizing: border-box;
  
  }
-body{
-  padding: 0;
-  height: 100%;
-}
+
+ #principal{
+   position: relative;
+ }
