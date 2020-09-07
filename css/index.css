@@ -7,6 +7,12 @@ body , html{
     height: 550px;
 }
 
+@media only screen and (max-width: 720px){
+    #imagemCarrossel{
+        height: 20em;
+    }
+}
+
 #conteudo{
     background-color: #5483ad;
 }

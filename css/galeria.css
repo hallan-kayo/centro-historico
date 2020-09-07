@@ -1,0 +1,13 @@
+Body{
+    background-color: #5483ad;
+}
+
+header{
+    background-color: white;
+}
+
+#galeria{
+    align-items: flex-end; 
+    justify-content: flex-end;
+    padding-bottom: 60px;
+}
