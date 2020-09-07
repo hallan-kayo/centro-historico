@@ -9,7 +9,10 @@
     border-radius: 1%;
     padding: 5%; 
     box-shadow: 1px 5px 5px black;
-    display: grid;
+}
+
+#gallery{
+    justify-content: center;
 }
 
 figure a img{
@@ -23,7 +26,3 @@ figure a img{
     width: 100%;
 }
 
-footer *{
-    align-items: center;
-    justify-content: center;
-}

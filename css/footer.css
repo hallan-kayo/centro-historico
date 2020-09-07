@@ -4,8 +4,14 @@ footer {
     left: 0;
     right: 0;
     padding: 2%;
+    z-index: 999;
 }
 
 .estilo-rodape {
  font-family: 'Rowdies', cursive;
+}
+
+footer *{
+    align-items: center;
+    justify-content: center;
 }
