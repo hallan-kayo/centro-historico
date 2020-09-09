@@ -12,7 +12,17 @@ header{
 }
 
 #mySidebar{
-    position: fixed;
+    position: absolute!important;
+}
+
+#galeria{
+    align-items: flex-end; 
+    justify-content: flex-end;
+}
+
+#closeBottom{
+    float: right; 
+    font-size: 30px;
 }
 
 @media only screen and (max-width: 720px){
