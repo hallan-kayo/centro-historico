@@ -16,24 +16,11 @@
 	<link rel="stylesheet" href="./css/galeria.css">
 	<link rel="stylesheet" href="./css/navbar.css">
 	<link rel="stylesheet" href="./css/footer.css">
-
-	<style>
-		@media only screen and (max-width: 720px){
-		  #mySidebar{
-			width: 60%;
-			height: 100%!important;
-		  }
-		  #sidebarMenu{
-			  margin-top:60px!important;
-			  overflow-y: scroll;
-		  }
-		}
-		
-	  </style>
+	
 </head>
 <body>
 	<header>
-		<img src="img/logo.jpg" width="80">
+		<img id="headerImage" src="img/headerImage.png">
 	</header>
 	<nav class="navbar navbar-expand-lg navbar-light nav-estilo">
 		<a class="navbar-brand " href="#"></a>
@@ -64,9 +51,9 @@
 		</div>
 	  </nav>
 
-	<aside style="top: 0;" class="w3-sidebar w3-bar-block w3-collapse" id="mySidebar">
+	<aside class="w3-sidebar w3-bar-block w3-collapse w3-animate-left" id="mySidebar">
 		
-		<div id="sidebarMenu" style="margin-top: 100px;">
+		<div id="sidebarMenu">
 			<button style="float: right; font-size: 30px;" class="w3-button w3-hide-large"
 				onclick="close_sidebar()"><span class="navbar-toggler-icon"></span>&#9776;
 			</button>
@@ -76,7 +63,7 @@
 		</div>
 		
 	</aside>
-	<button id="botaoAmpliar" class="w3-button w3-xlarge" onclick="open_sidebar()">&#9776;</button>
+	<button style="z-index: -2222;" id="botaoAmpliar" class="w3-button w3-xlarge" onclick="open_sidebar()">&#9776;</button>
 	 
 	<div  id="cards" class="container-fluid">    
 		

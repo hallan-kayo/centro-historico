@@ -6,6 +6,25 @@ header{
     background-color: white;
 }
 
+#headerImage{
+    width: 100%;
+    height: 12rem;
+}
+
+#mySidebar{
+    position: fixed;
+}
+
+@media only screen and (max-width: 720px){
+    #imagemCarrossel{
+        height: 20em;
+    }
+
+    #headerImage{
+        height: 7em!important;
+    }
+}
+
 #galeria{
     align-items: flex-end; 
     justify-content: flex-end;
