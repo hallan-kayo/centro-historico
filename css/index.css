@@ -11,7 +11,7 @@ body , html{
 
 @media only screen and (max-width: 720px){
     #imagemCarrossel{
-        height: 20em;
+        height: 18em!important;
     }
 
     #headerImage{
