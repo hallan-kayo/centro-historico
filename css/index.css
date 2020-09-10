@@ -2,20 +2,9 @@ body , html{
     height: 100%;
 }
 
-#headerImage{
-    width: 100%;
-    height: 12rem;
-}
-
-
-
 @media only screen and (max-width: 720px){
     #imagemCarrossel{
         height: 18em!important;
-    }
-
-    #headerImage{
-        height: 7em!important;
     }
 }
 #imagemCarrossel{
