@@ -7,10 +7,6 @@ footer {
     z-index: 999;
 }
 
-.estilo-rodape {
- font-family: 'Rowdies', cursive;
-}
-
 footer *{
     align-items: center;
     justify-content: center;

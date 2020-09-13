@@ -2,15 +2,6 @@ Body{
     background-color: #5483ad;
 }
 
-header{
-    background-color: white;
-}
-
-#headerImage{
-    width: 100%;
-    height: 12rem;
-}
-
 #mySidebar{
     position: absolute!important;
 }

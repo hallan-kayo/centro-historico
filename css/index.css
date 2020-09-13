@@ -2,15 +2,17 @@ body , html{
     height: 100%;
 }
 
+#imagemCarrossel{
+    width: 100%;
+    height: 550px;
+}
+
 @media only screen and (max-width: 720px){
     #imagemCarrossel{
         height: 18em!important;
     }
 }
-#imagemCarrossel{
-    width: 100%;
-    height: 550px;
-}
+
 #conteudo{
     background-color: #5483ad;
 }
@@ -20,7 +22,7 @@ body , html{
 }
 
 .content-section {
-    background:#e7e7e1;
+    background:#ffffff;
     padding:50px 30px 30px 20px;
     border-radius: 10px;
 }

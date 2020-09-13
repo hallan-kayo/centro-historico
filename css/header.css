@@ -1,6 +1,7 @@
 header{
     display:flex;
     width: 100%;
+    background-color: white;
 }
 
 #headerImage{
@@ -38,6 +39,9 @@ header{
 }
 
 @media only screen and (max-width: 720px){
+    header{
+        height: 13vh;
+    }
     #headerImage{
         height: 8.5vh!important;
         width: 25vw;
