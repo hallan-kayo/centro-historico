@@ -14,27 +14,36 @@ body , html{
 }
 
 #leftColumn{
-    margin-bottom: 1%;
     background-color: orange;
     left: -3%;
-    -webkit-transform: skew(-10deg);
-    -ms-transform: skew(-10deg);
-    transform: skew(-10deg);
 }
-
 
 #content{
     margin: 3%;
     justify-content: right;
 }
 
-.anime {
-	opacity: 0;
-	transform: translateX(-200px);
-	transition: 3s;
+[data-anime]{
+    opacity: 0;
+    transition: 2.5s;
+    transform: translateX(0);
+    
+}
+[data-anime="left"]{
+    opacity: 0;
+    transform: translate3d(500px,0,0);
+}
+[data-anime="right"]{
+    opacity: 0;
+    transform: translate3d(-500px,0,0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
 }
 
-.anime-start {
-	opacity: 1;
-	transform: translateX(0);
+section[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transform: skewX(-10deg);
 }
