@@ -1,5 +1,9 @@
-Body{
+body{
     background-color: #5483ad;
+}
+
+header{
+    background-color: white;
 }
 
 #mySidebar{

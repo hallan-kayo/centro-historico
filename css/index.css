@@ -13,27 +13,28 @@ body , html{
     }
 }
 
-#conteudo{
-    background-color: #5483ad;
+#leftColumn{
+    margin-bottom: 1%;
+    background-color: orange;
+    left: -3%;
+    -webkit-transform: skew(-10deg);
+    -ms-transform: skew(-10deg);
+    transform: skew(-10deg);
 }
 
-#historico{
-    padding: 2% 0;
+
+#content{
+    margin: 3%;
+    justify-content: right;
 }
 
-.content-section {
-    background:#ffffff;
-    padding:50px 30px 30px 20px;
-    border-radius: 10px;
+.anime {
+	opacity: 0;
+	transform: translateX(-200px);
+	transition: 3s;
 }
 
-h3 {
-    color:#fff;
-    text-align:center;
-    font-size:36px;
-    word-spacing:1px;
-    text-shadow:1px 1px 2px #000; 
-    padding-bottom: 15px;
+.anime-start {
+	opacity: 1;
+	transform: translateX(0);
 }
-
- 
