@@ -13,19 +13,24 @@ body , html{
     }
 }
 
-#leftColumn{
-    background-color: orange;
-    left: -3%;
+#history{
+    margin: 4% 0 2% 0;
 }
 
 #content{
     margin: 3%;
-    justify-content: right;
+}
+
+
+/* efeitos das divs */
+#leftColumn{
+    background-color: orange;
+    left: -4%;
 }
 
 [data-anime]{
     opacity: 0;
-    transition: 2.5s;
+    transition: 2s;
     transform: translateX(0);
     
 }
@@ -45,5 +50,14 @@ body , html{
 section[data-anime].animate{
     opacity: 1;
     transform: translate3d(0,0,0);
-    transform: skewX(-10deg);
+    transform: skewX(-10deg)  rotate(-2deg);
+}
+/* fim dos efeitos */
+
+#images{
+    background: #5483ad;
+    height: 200px;
+    left: 0;
+    right: 0;
+    margin: 0;
 }
