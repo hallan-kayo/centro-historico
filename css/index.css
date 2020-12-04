@@ -11,6 +11,10 @@ body , html{
     #imagemCarrossel{
         height: 18em!important;
     }
+
+    #leftColumn{
+        left: -20%;
+    }
 }
 
 #history{
@@ -26,6 +30,7 @@ body , html{
 #leftColumn{
     background-color: orange;
     left: -4%;
+    padding: 10%;
 }
 
 [data-anime]{
