@@ -1,0 +1,76 @@
+body{
+    overflow-x: hidden;
+}
+
+main{
+    background-color: #5483ad;
+}
+
+#content{
+    display: flex;
+    margin: 0px;
+}
+
+#formulario{
+    padding: 7%;
+}
+
+#formulario h1{
+    margin-bottom: 5%;
+    font-size: 3vw;
+}
+
+label{
+    font-size: 2vw;
+}
+
+
+#sideColumnLeft{
+    background-color: orange;
+    padding: 1%;
+    left: -2%;
+}
+
+#sideColumnRight{
+    background-color: orange;
+    padding: 1%;
+    right: -2%;
+}
+
+#enviarButton{
+    background-color: orange;
+    font-size: 1.5vw;
+    width: 12%;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 720px){
+    body{
+        overflow-x: hidden;
+    }
+    #formulario h1{
+        font-size: 5vw;
+    }
+
+    label{
+        font-size: 4vw;
+    }
+
+    #enviarButton{
+        font-size: 4vw;
+        width: 30%;
+    }
+
+    #sideColumnLeft{
+        background-color: orange;
+        padding: 1%;
+        left: -4%;
+    }
+    
+    #sideColumnRight{
+        background-color: orange;
+        padding: 1%;
+        right: -2%;
+        overflow-x: hidden;
+    }
+}

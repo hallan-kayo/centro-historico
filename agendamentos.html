@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="./css/header.css">
 	<link rel="stylesheet" href="./css/navbar.css">
 	<link rel="stylesheet" href="./css/footer.css">
+	<link rel="stylesheet" href="./css/effects.css">
 </head>
 <body>
 	<header>
@@ -24,7 +25,7 @@
 		  <h6>Santana do Seridó-RN</h6>
 		</div>
 		
-	  </header>
+	</header>
 
 	<nav class="navbar navbar-expand-lg navbar-light nav-estilo">
 		<a class="navbar-brand " href="#"></a>
@@ -54,96 +55,97 @@
 			  </ul>
 		</div>
 	</nav>
-	<div class="container-fluid">
 
-		<div class="container">
-			<div class="row">
-				<div class="col-12 text-center my-5"> <!-- my-5 p o titulo descer-->
-					<h1 class="display-5 estilo-letra-agendamento"><i class="fas fa-paper-plane text-primary "></i>Preencha este formulário para agendar sua visita!</h1> 	
-				</div>	
-			</div>
-		</div>
-     
-		<div class="row justify-content-center mb-5">
-			<div class="col-sm-12 col-md-10 col-lg-8">
-
-				<form>
-					<div class="row">
-						<div class="form-group col-sm-6">
-
-							<label for="inputNome">Instituição ou pessoa física</label>	
-							<input type="text" class="form-control" id="inputNome" placeholder="digite o nome da instituição ou nome físico">
-
-						</div>
-
-                   		<div class="form-group col-sm-6">
-
-							<label for="e-mail">E-mail</label>	
-							<input type="text" class="form-control" id="e-mail" placeholder="Digite seu E-mail">
-
-						</div>
-					</div>
 	
-              		<div class="row">
-
-                 		<div class="form-group col-sm-4">
-
-							<label for="inputCidade">Cidade</label>	
-							<input type="text" class="form-control" id="inputCidade" placeholder="Digite o nome da cidade">
-
+	<main>
+		<div id="content">
+			<div id="sideColumnLeft" data-anime="right" class="col-1"></div>
+     
+			<section id="formulario" data-anime="down" class="row justify-content-center ">
+				<h1><i class="fas fa-paper-plane text-primary "></i>Preencha este formulário para agendar sua visita!</h1> 		
+				<div class="col-12">
+	
+					<form>
+						<div class="row">
+							<div class="form-group col-sm-6">
+	
+								<label for="inputNome">Instituição ou pessoa física</label>	
+								<input type="text" class="form-control" id="inputNome" placeholder="nome da instituição ou nome físico">
+	
+							</div>
+	
+							   <div class="form-group col-sm-6">
+	
+								<label for="e-mail">E-mail</label>	
+								<input type="text" class="form-control" id="e-mail" placeholder="E-mail">
+	
+							</div>
 						</div>
-
-						<div class="form-group col-sm-4">
-
-							<label for="hora">Horário</label>	
-							<input type="time"  class="form-control" id="hora" placeholder="Informe o horário do agendamento">
-
-						</div>
-
-						<div class="form-group col-sm-4">
-
-							<label for="semana">Data</label>	
-							<input type="date"  class="form-control" name="semana" id="semana" placeholder="Informe o dia da semana">
-                    
-						</div>
-                   
-              		</div>	
-			  		<input class="btn btn-primary" type="submit" value="Enviar">
-				</form>
-			</div>
+		
+						  <div class="row">
+	
+							 <div class="form-group col-sm-4">
+	
+								<label for="inputCidade">Cidade</label>	
+								<input type="text" class="form-control" id="inputCidade" placeholder="Nome da cidade">
+	
+							</div>
+	
+							<div class="form-group col-sm-4">
+	
+								<label for="hora">Horário</label>	
+								<input type="time"  class="form-control" id="hora">
+	
+							</div>
+	
+							<div class="form-group col-sm-4">
+	
+								<label for="semana">Data</label>	
+								<input type="date"  class="form-control" name="semana" id="Data">
+						
+							</div>
+					   
+						  </div>	
+						  <input id="enviarButton" class="btn btn-primary" type="submit" value="Enviar">
+					</form>
+				</div>
+			</section>
+	
+			<div id="sideColumnRight" data-anime="left" class="col-1"></div>
 		</div>
+		
+	</main>
+	<footer>
+	
+		<div class="row">
+		
 
-		<footer>
-        
-        	<div class="row">
-          
-    
-          		<div class="col-md-5 text-center">
-    
-            		<h5 class="text-center estilo-rodape">CENTRO HISTÓRICO SANTANA DO SERIDÓ/RN</h5>
-            		<h6 class="text-center">AV. Zezé Aprígio, 228 Centro - Santana do Seridó/RN</h6>
-            		<h6 class="text-center">CEP:59350-000 - Fone:(84)93476-0066</h6>
-            
-            		<h5>CONECTE-SE CONOSCO</h5>
-            		<a href="www.facebook.com" class="btn btn-outline-info ">
-              			<i class="fab fa-facebook"></i> 
-            		</a>
-            		<a href="instagram.com" class="btn btn-outline-info ">
-              			<i class="fab fa-instagram"></i>
-            		</a>
-          		</div>
+			<div class="col-md-5 text-center">
 
-          		<div class="col-md-4 text-center">
-            		<h5 class="  estilo-rodape">Mapa: Encontre o centro histórico</h5>
-            		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.4975018685444!2d-36.73446627086131!3d-6.771069317943031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa36565c0c1f48711!2sPrefeitura%20Municipal%20de%20Santana%20do%20Serid%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1595439735742!5m2!1spt-BR!2sbr" 
-                		class="embed-responsive-item" width="80%" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
-            		</iframe>	 
-    
-          		</div>
-        	</div> 
-        
-    
-		</footer>
+				<h5 class="text-center estilo-rodape">CENTRO HISTÓRICO SANTANA DO SERIDÓ/RN</h5>
+				<h6 class="text-center">AV. Zezé Aprígio, 228 Centro - Santana do Seridó/RN</h6>
+				<h6 class="text-center">CEP:59350-000 - Fone:(84)93476-0066</h6>
+		
+				<h5>CONECTE-SE CONOSCO</h5>
+				<a href="www.facebook.com" class="btn btn-outline-info ">
+					<i class="fab fa-facebook"></i> 
+				</a>
+				<a href="instagram.com" class="btn btn-outline-info ">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</div>
+
+			<div class="col-md-4 text-center">
+				<h5 class="  estilo-rodape">Mapa: Encontre o centro histórico</h5>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.4975018685444!2d-36.73446627086131!3d-6.771069317943031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa36565c0c1f48711!2sPrefeitura%20Municipal%20de%20Santana%20do%20Serid%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1595439735742!5m2!1spt-BR!2sbr" 
+					class="embed-responsive-item" width="80%" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
+				</iframe>	 
+
+			</div>
+		</div> 
+	
+
+	</footer>
 		  
 		<!-- Modal -->
 		<div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -180,9 +182,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
 	
-
+	
+	<script src="./js/app.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
