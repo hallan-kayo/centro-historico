@@ -91,7 +91,6 @@ section[data-anime].animate{
     [data-anime].animate{
         opacity: 1;
         transform: translate3d(0,0,0);
-        transform: skewX(-2deg);
         overflow-x: hidden;
     }
 
@@ -127,6 +126,7 @@ section[data-anime].animate{
         opacity: 1;
         transform: translate3d(0,0,0);
         overflow-x: hidden;
+        transform: skewX(-2deg);
     }
 
 }
