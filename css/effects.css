@@ -1,0 +1,132 @@
+[data-anime]{
+    opacity: 0;
+    transition: 2s;
+    transform: translateX(0);
+    
+}
+[data-anime="left"]{
+    opacity: 0;
+    transform: translate3d(500px,0,0);
+}
+[data-anime="right"]{
+    opacity: 0;
+    transform: translate3d(-500px,0,0);
+}
+
+[data-anime="up"]{
+    opacity: 0;
+    transform: translateY(-500px);
+}
+
+[data-anime="down"]{
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+
+section[data-anime]{
+    opacity: 0;
+    transition: 2s;
+    transform: translateX(0);
+    
+}
+section[data-anime="left"]{
+    opacity: 0;
+    transform: translate3d(500px,0,0);
+}
+section[data-anime="right"]{
+    opacity: 0;
+    transform: translate3d(-500px,0,0);
+}
+
+section[data-anime="up"]{
+    opacity: 0;
+    transform: translateY(-500px);
+}
+
+section[data-anime="down"]{
+    opacity: 0;
+    transform: translateY(500px);
+}
+
+section[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transform: skewX(-7deg);
+}
+
+
+@media only screen and (max-width: 720px){
+    [data-anime]{
+        opacity: 0;
+        transition: 2s;
+        transform: translateX(0);
+        
+    }
+    [data-anime="left"]{
+        opacity: 0;
+        transform: translateX(3vw);
+    }
+    [data-anime="right"]{
+        opacity: 0;
+        transform: translateX(-3vw);
+        overflow-x: hidden;
+    }
+
+    [data-anime="up"]{
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    
+    [data-anime="down"]{
+        opacity: 0;
+        transform: translateY(500px);
+    }
+
+    [data-anime].animate{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        transform: skewX(-2deg);
+        overflow-x: hidden;
+    }
+
+
+
+    section[data-anime]{
+        opacity: 0;
+        transition: 2s;
+        transform: translateX(0);
+        
+    }
+    section[data-anime="left"]{
+        opacity: 0;
+        transform: translateX(3vw);
+    }
+    section[data-anime="right"]{
+        opacity: 0;
+        transform: translateX(-3vw);
+        overflow-x: hidden;
+    }
+
+    section[data-anime="up"]{
+        opacity: 0;
+        transform: translateY(-500px);
+    }
+    
+    section[data-anime="down"]{
+        opacity: 0;
+        transform: translateY(500px);
+    }
+
+    section[data-anime].animate{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+        overflow-x: hidden;
+    }
+
+}

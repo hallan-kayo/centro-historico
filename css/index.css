@@ -33,30 +33,7 @@ body , html{
     padding: 10%;
 }
 
-[data-anime]{
-    opacity: 0;
-    transition: 2s;
-    transform: translateX(0);
-    
-}
-[data-anime="left"]{
-    opacity: 0;
-    transform: translate3d(500px,0,0);
-}
-[data-anime="right"]{
-    opacity: 0;
-    transform: translate3d(-500px,0,0);
-}
-[data-anime].animate{
-    opacity: 1;
-    transform: translate3d(0,0,0);
-}
 
-section[data-anime].animate{
-    opacity: 1;
-    transform: translate3d(0,0,0);
-    transform: skewX(-10deg)  rotate(-2deg);
-}
 /* fim dos efeitos */
 
 #images{
