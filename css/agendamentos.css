@@ -42,6 +42,7 @@ label{
     font-size: 1.5vw;
     width: 12%;
     border-radius: 25px;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 720px){

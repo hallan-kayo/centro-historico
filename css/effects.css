@@ -70,11 +70,12 @@ section[data-anime].animate{
     }
     [data-anime="left"]{
         opacity: 0;
-        transform: translateX(3vw);
+        transform: translateX(500px);
+        overflow-x: hidden;
     }
     [data-anime="right"]{
         opacity: 0;
-        transform: translateX(-3vw);
+        transform: translateX(-500px);
         overflow-x: hidden;
     }
 

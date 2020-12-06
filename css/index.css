@@ -1,20 +1,11 @@
-body , html{
+body{
     height: 100%;
+    overflow-x: hidden;
 }
 
 #imagemCarrossel{
     width: 100%;
     height: 550px;
-}
-
-@media only screen and (max-width: 720px){
-    #imagemCarrossel{
-        height: 18em!important;
-    }
-
-    #leftColumn{
-        left: -20%;
-    }
 }
 
 #history{
@@ -25,16 +16,11 @@ body , html{
     margin: 3%;
 }
 
-
-/* efeitos das divs */
 #leftColumn{
     background-color: orange;
     left: -4%;
     padding: 10%;
 }
-
-
-/* fim dos efeitos */
 
 #images{
     background: #5483ad;
@@ -42,4 +28,14 @@ body , html{
     left: 0;
     right: 0;
     margin: 0;
+}
+
+@media only screen and (max-width: 720px){
+    #imagemCarrossel{
+        height: 18em!important;
+    }
+
+    #leftColumn{
+        left: -20%;
+    }
 }
