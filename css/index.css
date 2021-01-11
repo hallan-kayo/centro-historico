@@ -3,6 +3,12 @@ body{
     overflow-x: hidden;
 }
 
+#conteudo{
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
 #imagemCarrossel{
     width: 100%;
     height: 550px;
@@ -23,11 +29,32 @@ body{
 }
 
 #images{
-    background: #5483ad;
-    height: 200px;
+    background: #5689b9;
     left: 0;
     right: 0;
     margin: 0;
+}
+
+#imagesExample div{
+    padding: 1%;
+}
+
+.carousel-control-next{
+    position: fixed;
+    opacity: 1;
+}
+
+#goToAcervo{
+    opacity: 1;
+    padding: 3% 15px;
+    background-color:orange;
+    border-radius: 20px;
+    color: white;
+}
+
+#goToAcervo:hover{
+    font-size: 13pt;
+    opacity: 1;
 }
 
 @media only screen and (max-width: 720px){
