@@ -57,6 +57,44 @@ body{
     opacity: 1;
 }
 
+#agendamento{
+    margin: 3% 0;
+    height: 20vh;
+    display: flex;
+    z-index: 10;
+}
+
+#context{
+    background-color: orange;
+    height: 100%;
+    transform: skew(-20deg);
+    left: -10%;
+}
+
+#divButton{
+    background-color: #5689b9;
+    height: 100%;
+    transform: skew(-20deg);
+    left: -10%;
+    right: -10%;
+    text-align: center;
+}
+
+#goToAgendamento{
+    transform: skew(20deg);
+    margin: 8% auto;
+    background-color: orange;
+    border: none;
+    border-radius: 50px;
+    font-size: 18pt;
+    padding: 2% 5%;
+}
+
+#goToAgendamento a{
+    text-decoration: none;
+    color: white;
+}
+
 @media only screen and (max-width: 720px){
     #imagemCarrossel{
         height: 18em!important;
