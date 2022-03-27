@@ -1,13 +1,19 @@
 footer {
-    color: #aaa; background-color: #2f2f2f;
-    position: absolute;
+    text-align: center;
+    color: #aaa;
+    background-image: linear-gradient(to right, #2f2f2f 50%, #535353);
     left: 0;
     right: 0;
-    padding: 2%;
-    z-index: 999;
+    padding: 5%;
 }
-
 footer *{
     align-items: center;
     justify-content: center;
+}
+
+#logoImage{
+    margin: 1% 0 0 5%;
+    width: 12vw;
+    height: 12vw;
+    padding: 0.5%;
 }

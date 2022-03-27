@@ -17,7 +17,7 @@
 </head>
 <body>
 	<header>
-		<img id="headerImage" src="img/logo.png">
+		<img id="logoImage" src="img/logo/logo-centro-historico.png">
 		<div class="title text-center">
 		  <h1>Centro Histórico</h1>
 		  <h5>Joaquim Bernardino de Oliveira</h5>
@@ -26,35 +26,35 @@
 		
 	</header>
 
-	<nav class="navbar navbar-expand-lg navbar-light nav-estilo">
+	<!----------------------- barra de navegação-------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light nav-estilo">
 		<a class="navbar-brand " href="#"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
+		  <span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-			  <ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="./index.html">Inicio<span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					  <a class="nav-link" href="#">Agendamentos</a>
-				</li>
-				<li class="nav-item">
-					  <a class="nav-link" href="acervo.html">Acervo</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="galeriadeimagens.html">Galeria</a>
-				</li>
-				<li class="nav-item">
-					  <a class="nav-link" href="relatos.html">Relatos</a>
-				</li>
-				<li class="nav-item">
-					  <a class="nav-link" data-toggle="modal" data-target="#modal-contato" href="#">Entre em contato</a>
-				</li>
-			  </ul>
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="acervo.html">Acervo</a>
+			</li>
+			<!-- <li class="nav-item">
+			  <a class="nav-link" href="galeriadeimagens.html">Galeria</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="relatos.html">Relatos</a>
+			</li> -->
+			<li class="agendamento nav-item">
+			  <a class="nav-link" href="#">Agende sua visita</a>
+			</li>
+			<!-- <li class="nav-item">
+			  <a class="nav-link " data-toggle="modal" data-target="#modal-contato" href="#">Entre em contato</a>
+			</li> -->
+		  </ul>
 		</div>
-	</nav>
-
+	  </nav>
 	
 	<main>
 		<div id="content">
@@ -115,36 +115,38 @@
 		
 	</main>
 	<footer>
-	
+        
 		<div class="row">
-		
-
-			<div class="col-md-5 text-center">
-
-				<h5 class="text-center estilo-rodape">CENTRO HISTÓRICO SANTANA DO SERIDÓ/RN</h5>
-				<h6 class="text-center">AV. Zezé Aprígio, 228 Centro - Santana do Seridó/RN</h6>
-				<h6 class="text-center">CEP:59350-000 - Fone:(84)93476-0066</h6>
-		
-				<h5>CONECTE-SE CONOSCO</h5>
-				<a href="www.facebook.com" class="btn btn-outline-info ">
-					<i class="fab fa-facebook"></i> 
-				</a>
-				<a href="instagram.com" class="btn btn-outline-info ">
-					<i class="fab fa-instagram"></i>
-				</a>
-			</div>
-
-			<div class="col-md-4 text-center">
-				<h5 class="  estilo-rodape">Mapa: Encontre o centro histórico</h5>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d990.4975018685444!2d-36.73446627086131!3d-6.771069317943031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa36565c0c1f48711!2sPrefeitura%20Municipal%20de%20Santana%20do%20Serid%C3%B3!5e0!3m2!1spt-BR!2sbr!4v1595439735742!5m2!1spt-BR!2sbr" 
-					class="embed-responsive-item" width="80%" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0">
-				</iframe>	 
-
-			</div>
-		</div> 
+		  
+		  <div id="image" class="col-md-3">
+		  <img id="logoImage" src="./img/logo/logo-centro-historico-completo.png" alt="">
+		  </div>
 	
+		  <div id="endereco" class="col-md-6 text-center">
+	
+			<h5 class="text-center">CENTRO HISTÓRICO SANTANA DO SERIDÓ/RN</h5>
+			<h6 class="text-center">AV. Zezé Aprígio, 228 Centro - Santana do Seridó/RN</h6>
+			<h6 class="text-center">CEP:59350-000 - Fone:(84)93476-0066</h6>
+			
+			
+		  </div>
 
-	</footer>
+		  <div id="contact" class="col-md-3">
+			<h5>CONECTE-SE CONOSCO</h5>
+			<a href="https://www.facebook.com/educa.santana" target="_blank" class="btn btn-outline-info ">
+			  <i class="fab fa-facebook"></i> 
+			</a>
+			<a href="https://www.instagram.com/educa_cultura_ss/" target="_blank" class="btn btn-outline-info ">
+			  <i class="fab fa-instagram"></i>
+			</a>
+			<a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNqszmNdmqQdvvrHXbLVLgRPdgggPJPQXmwBFjvxfSgvTZxQjcQWwPwhmFlMBnzPTHzQQq" class="btn btn-outline-info " target="blank">
+			  <i class="fa fa-envelope" aria-hidden="true"></i>
+			</a>
+		  </div>
+		</div> 
+		
+	
+	  </footer>
 		  
 		<!-- Modal -->
 		<div class="modal fade" id="modal-contato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
