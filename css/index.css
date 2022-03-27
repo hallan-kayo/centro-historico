@@ -10,11 +10,14 @@
     background-image: linear-gradient(to right, #007294 50%, #34a7ca);
     display: inline-flex;
     align-items: center;
+    margin: 0 0 2% 0;
+    display: flex;
 }
 
 #content{
     left: 10vw;
     margin: 3%;
+
 }
 
 #centro-historico{
