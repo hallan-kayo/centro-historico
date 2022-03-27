@@ -1,106 +1,23 @@
-body{
-    height: 100%;
-    overflow-x: hidden;
-}
-
-#conteudo{
-    margin: 0;
-    left: 0;
-    right: 0;
-}
-
-#imagemCarrossel{
-    width: 100%;
-    height: 550px;
+.principal-image{
+    margin-left: -1%;
+    width: 100vw;
+    height: 45vw;
 }
 
 #history{
-    margin: 4% 0 2% 0;
+    margin: 10vw 0;
+    color: white;
+    background-image: linear-gradient(to right, #007294 50%, #34a7ca);
+    display: inline-flex;
+    align-items: center;
 }
 
 #content{
+    left: 10vw;
     margin: 3%;
 }
 
-#leftColumn{
-    background-color: orange;
-    left: -4%;
-    padding: 10%;
-}
-
-#images{
-    background: #5689b9;
-    left: 0;
-    right: 0;
-    margin: 0;
-}
-
-#imagesExample div{
-    padding: 1%;
-}
-
-.carousel-control-next{
-    position: fixed;
-    opacity: 1;
-}
-
-#goToAcervo{
-    opacity: 1;
-    padding: 3% 15px;
-    background-color:orange;
-    border-radius: 20px;
-    color: white;
-}
-
-#goToAcervo:hover{
-    font-size: 13pt;
-    opacity: 1;
-}
-
-#agendamento{
-    margin: 3% 0;
-    height: 20vh;
-    display: flex;
-    z-index: 10;
-}
-
-#context{
-    background-color: orange;
-    height: 100%;
-    transform: skew(-20deg);
-    left: -10%;
-}
-
-#divButton{
-    background-color: #5689b9;
-    height: 100%;
-    transform: skew(-20deg);
-    left: -10%;
-    right: -10%;
-    text-align: center;
-}
-
-#goToAgendamento{
-    transform: skew(20deg);
-    margin: 8% auto;
-    background-color: orange;
-    border: none;
-    border-radius: 50px;
-    font-size: 18pt;
-    padding: 2% 5%;
-}
-
-#goToAgendamento a{
-    text-decoration: none;
-    color: white;
-}
-
-@media only screen and (max-width: 720px){
-    #imagemCarrossel{
-        height: 18em!important;
-    }
-
-    #leftColumn{
-        left: -20%;
-    }
+#centro-historico{
+    margin: 2vw;
+    width: 100%; 
 }

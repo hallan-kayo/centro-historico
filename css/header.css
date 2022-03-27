@@ -3,38 +3,34 @@ header{
     width: 100%;
 }
 
-#headerImage{
-    margin: 2% 0 0 2%;
-    width: 25vw;
-    height: 12rem;
+#logoImage{
+    margin: 1% 0 0 5%;
+    width: 12vw;
+    height: 12vw;
     padding: 0.5%;
 }
 
 .title{
-    right: 0;
+    right: 10vw;
     position: absolute;
-    margin: 5vw 5vw 0 0;
+    margin: 2vw 5vw 0 0;
     justify-content: center;
     align-items: center;
 }
 
 .title h1{
-    font-size: 5vw;
-    letter-spacing: 0.2em;
-    line-height: 7vh;
+    font-size: 4vw;
     font-weight: bold;    
 }
 
 .title h5{
-    font-size:2.6vw;
-    letter-spacing: 0.2em;
+    font-size:2.2vw;
     font-weight: bold;
 }
 
 .title h6{
     font-size: 2vw;
     line-height: 2vh;
-    letter-spacing: 0.2em;
 }
 
 @media only screen and (max-width: 720px){
@@ -42,8 +38,8 @@ header{
         height: 13vh;
     }
     #headerImage{
-        height: 8.5vh!important;
-        width: 25vw;
+        height: 15vw!important;
+        width: 20vw;
         margin: 4% 0 0 4%;
     }
     .title{
@@ -51,11 +47,10 @@ header{
     }
     .title h1{
         font-size: 5vw;
-        line-height: 3vh;
+        line-height: 3vw;
     }
     .title h5{
         font-size: 3vw;
-        line-height: 1vh;
     }
     .title h6{
         font-size: 3vw;
