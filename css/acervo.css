@@ -37,3 +37,7 @@ figure a img{
     border-radius: 10px;
     background-color: white;
 }
+
+.modal-title{
+    display: none;
+}

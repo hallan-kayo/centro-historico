@@ -6,21 +6,36 @@
 
 #history{
     margin: 10vw 0;
-    color: white;
     background-image: linear-gradient(to right, #007294 50%, #34a7ca);
     display: inline-flex;
     align-items: center;
-    margin: 0 0 2% 0;
-    display: flex;
 }
 
 #content{
+    color: white;
     left: 10vw;
     margin: 3%;
-
 }
 
 #centro-historico{
     margin: 2vw;
     width: 100%; 
+}
+
+@media only screen and (max-width: 720px){
+    #history{
+        justify-items: center;
+        display: grid;
+    }
+
+    #centro-historico{
+        margin: 2vw;
+        width: 100%; 
+    }
+
+    #content{
+        color: white;
+        margin: 3%;
+    }
+    
 }
