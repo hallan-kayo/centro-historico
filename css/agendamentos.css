@@ -2,10 +2,6 @@ body{
     overflow-x: hidden;
 }
 
-main{
-    background-color: #5689b9;
-}
-
 #content{
     display: flex;
     margin: 0px;

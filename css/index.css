@@ -5,7 +5,8 @@
 }
 
 #history{
-    margin: 10vw 0;
+    cursor: default;
+    margin: 10vw 0 2vw 0;
     background-image: linear-gradient(to right, #007294 50%, #34a7ca);
     display: inline-flex;
     align-items: center;
@@ -17,9 +18,40 @@
     margin: 3%;
 }
 
+#content h1{
+    margin:3vw 5vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+#content p{
+    margin:0 4vw;
+    text-indent: 2em;
+    text-align: justify;
+}
+
 #centro-historico{
     margin: 2vw;
-    width: 100%; 
+    width: 32vw; 
+}
+
+#bottomButton h4{
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+    padding: 1vw;
+    box-shadow: 1px 3px 10px rgb(66, 66, 66);
+    background-color: #fac244;
+    width: 18vw;
+    margin: 0 0 5vw 40vw;
+    color: #165081;
+    font-size: 1.5vw;
+}
+
+#bottomButton h4:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 720px){
@@ -29,8 +61,7 @@
     }
 
     #centro-historico{
-        margin: 2vw;
-        width: 100%; 
+        width: 80%; 
     }
 
     #content{
@@ -38,4 +69,15 @@
         margin: 3%;
     }
     
+}
+
+.whatsapp-button{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 100;
+}
+.whatsapp-button:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }

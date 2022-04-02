@@ -66,6 +66,7 @@ ul li a:hover:before{
 }
 
 .agendamento a{
+   cursor: pointer;
    color: white!important;
    font-weight: bold;
 }

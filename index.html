@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="./css/effects.css">
-  <link rel="stylesheet" href="./css/bottonMenuIcons.css">
   
   
   
@@ -58,7 +57,7 @@
             <a class="nav-link" href="relatos.html">Relatos</a>
           </li> -->
           <li class="agendamento nav-item">
-            <a class="nav-link" href="agendamentos.html">Agende sua visita</a>
+            <a class="nav-link" onclick="redirectToVisits()">Agende sua visita</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link " data-toggle="modal" data-target="#modal-contato" href="#">Entre em contato</a>
@@ -75,43 +74,40 @@
       </div>
       <!-- história do centro -->
       <div id="history">
-        <div class="col-4">
-          <img id="centro-historico" src="./img/background.png" alt="">
-        </div>
-        <div class="col-6" id="content">
+        <img id="centro-historico" src="./img/background.png" alt="">
+        <div id="content">
 
   
 
    
-          <h1>título central</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus autem, distinctio tempora aspernatur deserunt nulla voluptas magni nemo temporibus nisi accusamus saepe? Alias in repellendus recusandae eius quibusdam sequi nulla.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nesciunt laudantium veniam excepturi laborum provident blanditiis amet! Consectetur, nihil veniam aliquid autem nobis commodi, aut ad iusto rerum maiores quis!</p>
+          <h1>CENTRO HISTÓRICO JOAQUIM BERNARDINO DE OLIVEIRA</h1>
+          <p>A sala de museu Joaquim Bernardino de Oliveira, criada através do projeto de 
+            lei nº 001/2004, em 11 de maio de 2004, apresentado pelo vereador Iranildo Pereira 
+            de Azevedo, sancionado pelo Prefeito Hudson Pereira de Brito, resgata a cultura, 
+            valorizando, inovando e visualizando a história do nosso município, 
+            instrumento essencial para a ascensão cultural através dos fundamentos em que 
+            a população tenha conhecimento sobre suas raízes, tradições e motivações. esse nome foi 
+            em homenagem ao repentista e poeta Joaquim Bernardino de Oliveira, que criou sua família aqui em Santana do Seridó, 
+            e parte dos seus filhos e netos também poetas e poetisa e escritoras (es).</p>
+          <p>Nesse contexto, o Centro Histórico Joaquim Bernardino de Oliveira, traz em sua estrutura 4(quatro) salas temáticas que 
+            retrata: a religiosidade, a agricultura, a política e a comunicação, além de ser composta de uma linda galeria de 
+            homenageados em todos os seguimentos, pessoas que fizeram história. Todas essas salas contêm objetos 
+            importantes sobre a cultura de nosso povo, esses objetos foram doados por cidadãos santanenses.</p>
+          <p>A cultura está relacionada diretamente à geração do conhecimento e ao exercício do 
+            pensamento, que são valores essenciais para o desenvolvimento da sociedade. Assim, a 
+            cultura é importante na formação pessoal, moral e intelectual do indivíduo e no desenvolvimento
+            da sua capacidade de relacionar-se com o próximo, faz parte de um legado que é passado de uma geração para outra
+            ao longo do tempo. </p>
         </div>
       </div>
- <!-- <section id="bottomMenu">
-        <div class="redirect" id="visitButton" onclick="redirectToVisits()">
-          <img id="icon" src="./img/icons/form_icon.svg" >
-          <h4 id="titleIcon">Agendar Visita</h4>
-        </div>
-
-        <div class="redirect" id="collectionButton" onclick="redirectToCollection()">
-          <img id="icon" src="./img/icons/collection_icon.svg" >
-          <h4 id="titleIcon">Visualizar Acervo</h4>
-        </div>
-
-        <div class="redirect" id="galleryButton" onclick="redirectToGallery()">
-          <img id="icon" src="./img/icons/gallery_icon.svg" >
-          <h4 id="titleIcon">Visualizar Galeria</h4>
-        </div>
-
-        <div class="redirect" id="collectionButton" onclick="redirectToCollection()">
-          <img id="icon" src="./img/icons/collection_icon.svg" >
-          <h4 id="titleIcon">Visualizar Acervo</h4>
+      
+      <div id="bottomButton">
+        <div class="col-12" onclick="redirectToVisits()">
+          <h4> Agende sua visita</h4>
         </div>
       </div>
 
       
-      <!-- footer -->
       <footer>
         
         <div class="row">
@@ -151,7 +147,7 @@
   </div><!-- principal -->
 
   <section id="whatsapp" class="btn">
-    <a href="https://api.whatsapp.com/send?phone=5584987954404" class="whatsapp-button" target="_blank" style="position: fixed;  right: 15px; bottom: 15px;z-index: 100;">
+    <a href="https://api.whatsapp.com/send?phone=5584987954404" class="whatsapp-button" target="_blank">
       <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp">
     </a>
   </section>

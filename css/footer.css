@@ -41,7 +41,6 @@ footer *{
     background: #fac244;
     transition: transform 0.5s;
     transform-origin: right;
-    transform: scaleY(0);
     z-index: -1;
     border-radius: 100%;
  }
