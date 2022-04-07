@@ -31,8 +31,14 @@
 }
 
 #centro-historico{
-    margin: 2vw;
-    width: 32vw; 
+    margin: 4vw;
+    width: 38vw; 
+    box-shadow: 1px 6px 10px rgb(66, 66, 66);
+    border-radius: 5px;
+}
+
+#bottonButton{
+    position: relative;
 }
 
 #bottomButton h4{
@@ -78,7 +84,7 @@
         box-shadow: 1px 6px 10px rgb(66, 66, 66);
         background-color: #fac244;
         width: 35vw;
-        margin: 0 0 5vw 35vw;
+        margin: 0 0 5vw 28vw;
         color: #ffffff;
         font-size: 3vw;
     }
